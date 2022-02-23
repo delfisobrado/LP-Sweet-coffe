@@ -29,13 +29,12 @@ nav { width: 100%;
     height: 100%;
     object-fit: contain;}
 
-.conteiner-info { display: flex!important;
-width: 100%;
+.conteiner-info { width: 100%;
 height: 80%;
 display: inline-block;
-justify-content: center;
 align-items: center;
-justify-content: space-between;}
+justify-content: space-between;
+display: flex;}
 
 .conteiner-parrafo { display: flex;
 justify-content: center;
@@ -51,10 +50,11 @@ h2 { font-size: 45px;}
 
 .Cafe-caramelo { width: 30%;
 height: 80%;
-display: flex;
-justify-content: center;
 margin-right: 80px;
-margin-top: 30px; }
+margin-top: 30px; 
+justify-content: flex-end;
+float: right;
+object-fit: contain;}
 
 .button { background-color: #C8A955;
 height: 50px;
@@ -71,7 +71,7 @@ margin-top: 20px;}
 display: inline-block;
 height: 100vh;
 width: 100%;
-background-color: #81370C;
+background-color: #806443;
 justify-content: center;
 align-items: center;
 justify-content: space-evenly;}
@@ -90,4 +90,58 @@ justify-content: center;
 align-items: center;}
 
 .texto-cafe { margin-top: 10px;
-margin-left: 50px;}
+margin-left: 50px;
+font-size: 20px;
+text-align: center;
+flex-wrap: nowrap;}
+
+.Porque-nosotros { width: 100%;
+height: 100vh;
+background-color: #ffe0b5;
+display: flex;}
+
+.conteiner-mood { width: 100%;
+height: 30rem;
+background-color: #1E3932;
+display: flex;
+margin-top: 2.7rem;
+align-items: center;
+}
+.cuadrado-mood { width: 45%;
+height:80%;
+color: white;
+text-align: center;
+display: inline-block;
+flex-direction: column;
+flex-wrap: wrap;
+margin-left: 4rem;
+align-items: center;}
+
+.parrafo-mood { margin-top: 4rem;
+    display: flex;}
+    
+.button-mood { margin-top: 5rem;
+ margin-left: 1.3rem;
+width: 10rem;
+height: 3rem;
+border: 1px solid white;
+border-radius: 0.9rem;
+background-color:#1E3932;
+color: white;}
+
+.button-mood:hover { background-color: #1E3932 ;
+opacity: 0.1;}
+
+.fotos-mood {width: 45%;
+ height:80%;
+object-fit: contain;
+display: flex;
+flex-wrap: nowrap;
+box-shadow: 31px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 31px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 31px 10px 5px 0px rgba(0,0,0,0.75);
+margin-left: 2rem;
+}
+
+.cookies { margin-left: 0.3rem;}
+    
